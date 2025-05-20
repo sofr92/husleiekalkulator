@@ -1,17 +1,19 @@
-# Husleiekalkulator.no
+# Husleiekalkulator
 
-Et moderne og brukervennlig verktøy for å:
-- Beregne husleiekostnader
-- Sammenligne leie vs eie
-- Estimere boligkjøpskostnader (dokumentavgift, eiendomsskatt)
-- Få tilgang til nyttige lenker fra NAV, Finn.no og banker
+Dette er en moderne kalkulatorside bygget med Next.js og Tailwind CSS.
+
+## Innhold
+- Husleieberegning
+- Boliglån
+- Dokumentavgift og eiendomsskatt
+- Sammenligning Leie vs Eie
+- Ressurssamling (NAV, Finn.no, DNB osv.)
 
 ## Kom i gang
 
-1. Last opp koden til GitHub
-2. Deploy direkte til [Vercel](https://vercel.com)
+```bash
+npm install
+npm run dev
+```
 
-## Design
-- Font: [Manrope](https://fonts.google.com/specimen/Manrope)
-- Farger: Terracotta og varme jordtoner
-- Kompatibel med mobil og moderne nettlesere
+Deretter kan du deploye til [vercel.com](https://vercel.com).

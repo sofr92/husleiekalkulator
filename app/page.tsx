@@ -87,7 +87,7 @@ function DokumentavgiftEiendomsskatt() {
   );
 }
 
-function ExportToPDF({ title, content }) {
+function ExportToPDF({ title, content }: { title: string; content: string[] }) {
   const generatePDF = () => {
     const doc = new jsPDF();
     doc.text(title, 10, 10);

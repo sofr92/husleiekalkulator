@@ -1,6 +1,6 @@
 "use client";
 
-tving commit 
+// tving commit 
 /* Mobilvennlig kalkulatorside med terracotta-tema */
 
 import { useEffect, useState } from "react";
